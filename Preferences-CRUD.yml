@@ -4,3 +4,8 @@ spring:
       uri=mongodb+srv://saga:Iliana77@cluster0.j8mmm.mongodb.net/saga?retryWrites=true&w=majority
   jackson:
     date-format=dd/MM/yyyy
+management:
+  endpoints:
+    web:
+      exposure:
+        include=*.
